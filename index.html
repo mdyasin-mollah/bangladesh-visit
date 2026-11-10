@@ -998,3 +998,726 @@ const IMAGES = {
     "https://images.unsplash.com/photo-1655553271545-a094637e8582?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     
     // শাকসবজি বা স্থানীয় পরিবেশ (Vegetables)
+    "https://images.unsplash.com/photo-1640613126891-c2f15e34bb5e?q=80&w=2694&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+  ],
+
+
+
+
+
+  
+  //"mahasthangarh":   [],
+  "mahasthangarh": [ 
+    // প্রাচীন প্রত্নতাত্ত্বিক ও ঐতিহাসিক স্থান ভিউ ১
+    "https://images.unsplash.com/photo-1604993497451-eed6eb271a9c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    
+    // ঐতিহাসিক স্থাপনা বা ইটের গাঁথনি
+    "https://images.unsplash.com/photo-1668511762738-5230782e587d?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    
+    // প্রাচীন স্থাপত্যের ভিন্ন এঙ্গেল
+    "https://images.unsplash.com/photo-1624182981969-bd8a84449df8?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    
+    // প্রত্নতাত্ত্বিক সাইটের চারপাশের পরিবেশ
+    "https://images.unsplash.com/photo-1580835864686-c6c0446abbbb?q=80&w=2506&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    
+    // প্রাচীন ঐতিহ্যবাহী নিদর্শন বা ইটের কাজ
+    "https://images.unsplash.com/photo-1591267770966-2938561e2608?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+  ],
+
+
+
+
+
+  
+  "puthia":          [],
+  "kantajew":        [],
+  "lawachara":       [],
+  "madhupur":        [],
+  "chattogram":      [],
+  "liberation":      [],
+  "nijhum":          [],
+  "barishal":        []
+};
+
+/* =========================================================
+   DESTINATION DATA
+   ========================================================= */
+const D=[
+{id:"sundarbans",n:"Sundarbans",r:"Khulna Division",c:["nature","wildlife","unesco"],u:"https://whc.unesco.org/en/list/798",s:"The world's largest mangrove forest, shared with India; home of the Bengal tiger.",o:"A tidal network of channels, mudflats and mangroves in the Ganges–Brahmaputra delta. The Bangladesh part is a UNESCO World Heritage Site (listed 1997). Tigers are very hard to see; birds, deer, crocodiles and the scenery itself are the realistic draw.",t:"Cooler, drier months are generally preferred; monsoon travel is harder.",d:"3–4 days",x:"Usually visited by boat on organised trips from Khulna or Mongla. Entry needs forest-department permits that tour operators typically arrange.",cl:"#1f6f78"},
+{id:"coxs-bazar",n:"Cox's Bazar",r:"Chattogram Division",c:["beach","nature"],s:"One of the world's longest natural sea beaches, with hills and fishing harbours nearby.",o:"A long sandy beach on the Bay of Bengal with sunset views, seafood and nearby spots such as Himchari and Inani. Expect crowds on weekends and holidays.",t:"Winter (roughly Nov–Feb) is the most comfortable; monsoon brings rough seas.",d:"2–3 days",x:"Domestic flights and long-distance buses connect from Dhaka; a railway line has also been built. Check current schedules.",cl:"#1f6f78"},
+{id:"saint-martin",n:"Saint Martin's Island",r:"Chattogram Division",c:["beach","nature"],s:"Bangladesh's only coral-bearing island, in the far southeast.",o:"A small island reached by sea from Teknaf. Its reefs and nesting turtles make conservation rules important.",t:"Access is seasonal.",d:"1–2 days",x:"Ferries run from Teknaf in season.",cl:"#2a8a8f",adv:"Access rules, visitor limits and overnight stays have changed repeatedly for conservation and security reasons. Confirm current rules with official sources before planning."},
+{id:"sylhet-srimangal",n:"Sylhet & Srimangal",r:"Sylhet Division",c:["nature","photography","food"],s:"Tea gardens, hills, rivers and the Ratargul swamp forest.",o:"Rolling tea estates around Srimangal, the Jaflong riverside near the Meghalaya border, and Ratargul, a freshwater swamp forest explored by small boat in the wet season. Tanguar Haor, a large wetland, is also in this region.",t:"Tea country is green most of the year; Ratargul is best when flooded (monsoon).",d:"3–4 days",x:"Trains and buses run from Dhaka to Sylhet and Srimangal.",cl:"#2e6b45"},
+{id:"hill-tracts",n:"Bandarban, Rangamati & Khagrachhari",r:"Chittagong Hill Tracts",c:["nature","culture","photography"],s:"Forested hills, lakes and home to many indigenous communities.",o:"Waterfalls, viewpoints, Kaptai Lake and communities with distinct cultures. Sajek Valley sits in Rangamati district.",t:"Post-monsoon to winter is usually clearer.",d:"4–5 days",x:"Roads from Chattogram and Dhaka; local vehicles for hill roads.",cl:"#3a7a52",adv:"Travel conditions and permission requirements in the Hill Tracts can change. Check current guidance and use a local guide."},
+{id:"kuakata",n:"Kuakata",r:"Barishal Division",c:["beach","photography"],s:"A south-coast beach known for views of both sunrise and sunset over the sea.",o:"A quieter beach reached through river country, with fishing villages and a Buddhist temple community nearby.",t:"Winter is comfortable.",d:"2 days",x:"Buses and river launches via Barishal.",cl:"#2a8a8f"},
+{id:"dhaka-old",n:"Old Dhaka",r:"Dhaka Division",c:["history","food","architecture"],s:"Mughal-era fort, Armenian church, riverfront and the city's best-known food streets.",o:"Includes Lalbagh Fort (begun in the Mughal period), Ahsan Manzil and the Sadarghat river port. Dense and busy; go with a guide on a first visit.",t:"Winter for walking.",d:"1–2 days",x:"Rickshaws, ride-hailing apps and the metro in parts of the city.",cl:"#b5532f"},
+{id:"sonargaon",n:"Sonargaon & Panam City",r:"Dhaka Division",c:["history","architecture"],s:"A medieval capital region with 19th-century merchant houses.",o:"Panam Nagar preserves a street of colonial-era merchant buildings; Sonargaon was an important city in medieval Bengal.",t:"Dry season.",d:"Half day",x:"Day trip from Dhaka by road.",cl:"#9a6a3a"},
+{id:"paharpur",n:"Paharpur Buddhist Vihara",r:"Rajshahi Division",c:["history","unesco","architecture"],u:"https://whc.unesco.org/en/list/322",s:"Ruins of Somapura Mahavihara, a major Buddhist monastery of the Pala era.",o:"A vast square monastery with a central cruciform temple, UNESCO World Heritage Site (listed 1985). Terracotta plaques are displayed in the site museum.",t:"Cooler months.",d:"1 day",x:"Via Naogaon or Bogura by road.",cl:"#a8583a"},
+{id:"bagerhat",n:"Mosque City of Bagerhat",r:"Khulna Division",c:["history","unesco","architecture"],u:"https://whc.unesco.org/en/list/321",s:"15th-century mosques and tombs, including the Sixty Dome Mosque.",o:"Associated with the saint-governor Khan Jahan Ali. UNESCO World Heritage Site (listed 1985). Shait Gumbad Mosque is the best known building.",t:"Cooler months.",d:"Half to 1 day",x:"Combine with Sundarbans via Khulna.",cl:"#8a5a3a"},
+{id:"mahasthangarh",n:"Mahasthangarh & Mainamati",r:"Rajshahi / Chattogram",c:["history","architecture"],s:"Two of Bangladesh's key archaeological landscapes.",o:"Mahasthangarh, near Bogura, is the ancient city site of Pundranagara. Mainamati, near Cumilla, holds Buddhist monastery remains. Check museum opening times.",t:"Cooler months.",d:"1 day each",x:"Road access from Bogura and Cumilla.",cl:"#9a6a3a"},
+{id:"puthia",n:"Puthia & Natore",r:"Rajshahi Division",c:["history","architecture"],s:"Terracotta-decorated Hindu temples and zamindar palaces near Rajshahi.",o:"A cluster of temples and palace buildings from the zamindari era, notable for brick and terracotta decoration. Natore Rajbari is a nearby palace complex.",t:"Cooler months.",d:"1 day",x:"Road from Rajshahi.",cl:"#a8583a"},
+{id:"kantajew",n:"Kantajew Temple & Dinajpur",r:"Rangpur Division",c:["history","architecture","photography"],s:"An 18th-century Hindu temple covered in terracotta panels.",o:"Kantajew (Kantaji) Temple near Dinajpur is known for narrative terracotta plaques showing scenes from epics and village life.",t:"Cooler months.",d:"1 day",x:"Road from Dinajpur town.",cl:"#9a4a2a"},
+{id:"lawachara",n:"Lawachara National Park",r:"Sylhet Division",c:["nature","wildlife"],s:"Semi-evergreen rainforest near Srimangal with primates and birds.",o:"A protected forest in Moulvibazar district, home to the western hoolock gibbon among other wildlife. Walk with a guide on marked trails.",t:"Cooler months; trails are muddy in the rains.",d:"Half day",x:"Road from Srimangal.",cl:"#2e6b45"},
+{id:"madhupur",n:"Madhupur Sal Forest",r:"Dhaka–Mymensingh region",c:["nature","culture"],s:"A sal forest north of Dhaka, home to Garo and Koch communities.",o:"A National Park of sal trees. Treat community areas with respect and ask before photographing people.",t:"Winter.",d:"1 day",x:"Road from Dhaka.",cl:"#3a7a52"},
+{id:"chattogram",n:"Chattogram",r:"Chattogram Division",c:["history","food","beach"],s:"Bangladesh's main seaport, between hills and the Bay of Bengal.",o:"Hill viewpoints, Patenga beach and Foy's Lake. The city is known for spicy mezban beef curry.",t:"Winter.",d:"1–2 days",x:"Flights, trains and buses from Dhaka.",cl:"#1f6f78"},
+{id:"liberation",n:"Liberation Memorials",r:"Dhaka Division",c:["history","culture"],s:"Shaheed Minar, the Liberation War Museum and the National Martyrs' Memorial.",o:"Sites in and near Dhaka commemorating the 1952 Language Movement and the 1971 war. Check opening hours and dress respectfully.",t:"Year-round; 21 Feb and 16 Dec are very crowded.",d:"Half to 1 day",x:"Savar memorial is a road trip from Dhaka.",cl:"#b5532f"},
+{id:"nijhum",n:"Nijhum Dwip",r:"Chattogram Division",c:["nature","wildlife"],s:"A small island in the Meghna estuary with mangrove and deer.",o:"A quiet island reached by boat from Noakhali area. Conditions at sea depend on weather.",t:"Winter.",d:"2 days",x:"Boat and road; arrange locally.",cl:"#2a8a8f"},
+{id:"barishal",n:"Barishal river country",r:"Barishal Division",c:["culture","photography","nature"],s:"Canals, boats and village life, including seasonal floating markets.",o:"The floating guava market at Bhimruli runs in the guava season, typically in the rains. Confirm timing locally.",t:"Monsoon for markets.",d:"2 days",x:"Launch or road to Barishal, then local boats.",cl:"#2a8a8f"}];
+
+const CATS=["all","wildlife","nature","history","beach","culture","food","photography","architecture","unesco"];
+const H=[["Ancient Bengal","Archaeological sites such as Mahasthangarh show urban life in the region in antiquity.","https://whc.unesco.org/en/statesparties/bd"],["Buddhist heritage","Pala-era monasteries such as Somapura (Paharpur) were major centres of Buddhist learning and art.","https://whc.unesco.org/en/list/322"],["Sultanate Bengal","Terracotta-and-brick mosques, including at Bagerhat, define the regional style.","https://whc.unesco.org/en/list/321"],["Mughal Bengal","Dhaka became a provincial capital; Lalbagh Fort dates from this era.",""],["Colonial period","British rule left civic buildings, merchant houses and the railway network.",""],["1947 Partition","British India was divided in 1947; East Bengal became part of Pakistan.",""],["1952 Language Movement","Protests for Bangla as a state language are commemorated each 21 February, now International Mother Language Day (UNESCO).","https://www.unesco.org/en/days/mother-language"],["1971 Liberation War","Bangladesh became independent on the 1971 war's conclusion; sites and museums in Dhaka commemorate it.",""],["Modern Bangladesh","A fast-changing country of rivers, textiles and a young population.",""]];
+const CU=[["Pohela Boishakh","Bengali New Year, 14 April, marked with processions, music and fairs."],["Baul music","Mystic folk songs; Baul tradition is on UNESCO's Intangible Heritage list."],["Jamdani & Nakshi Kantha","Handwoven muslin and embroidered quilts, still made by artisans."],["River life","Wooden boats, ferries and floating markets shape daily life in the delta."],["Bangla literature","Rabindranath Tagore (Nobel Prize in Literature, 1913) and Kazi Nazrul Islam, the national poet, are central to Bengali letters."],["Rickshaw art","Hand-painted rickshaw panels are a colourful Dhaka folk art."],["Muslin heritage","Dhaka's fine muslin cloth was historically famed; Jamdani continues the weaving tradition."],["Communities","Alongside the Bengali majority are indigenous peoples such as Chakma, Marma, Santal and Garo, each with their own languages and festivals."],["Festivals","Eid, Durga Puja, Buddha Purnima and Christmas are all celebrated; Pohela Boishakh is a shared national festival."],["Etiquette","Dress modestly, remove shoes at mosques and homes, use the right hand for eating, ask before photographing people."]];
+const FO=[["Rice and fish","The everyday meal; hilsa (ilish) is the celebrated fish, seasonal in the monsoon."],["Bhorta & dal","Mashed vegetable or fish preparations with chilli and mustard oil; many are vegetarian."],["Biryani","Dhaka's styles include kacchi biryani, often eaten at special meals."],["Pitha","Rice-flour cakes and sweets, especially in winter."],["Panta ilish","Fermented rice with fried hilsa is traditional on Pohela Boishakh."],["Mishti doi","Sweet set yoghurt; Bogura is especially known for it."],["Chattogram mezban","Spicy mezbani beef curry served at feasts."],["Street food","Fuchka, chotpoti and jhalmuri are popular; choose busy stalls and use bottled or filtered water."],["Regional","Sylhet is known for seven-colour tea (a Srimangal speciality) and shatkora dishes."]];
+const ST=[["The rivers of Bangladesh","The Padma, Meghna and Jamuna and their delta shape settlement, trade and crops."],["Sundarbans and conservation","Mangroves buffer storms and shelter wildlife; tourism pressure needs management."],["Photography routes","Dawn river scenes, tea hills and old-town streets reward early starts."]];
+const L=[["Visa & entry","https://visa.gov.bd","Official e-visa portal (Bangladesh government)"],["Immigration","https://www.dip.gov.bd","Department of Immigration & Passports"],["Tourism board","https://tourismboard.portal.gov.bd","Bangladesh Tourism Board"],["Parjatan","https://www.parjatan.gov.bd","State tourism corporation"],["Health","https://wwwnc.cdc.gov/travel/destinations/traveler/none/bangladesh","CDC travel health notices"],["Safety","https://www.gov.uk/foreign-travel-advice/bangladesh","UK government travel advice (use your own government's advice too)"]];
+
+/* =========================================================
+   HELPERS
+   ========================================================= */
+const $=s=>document.querySelector(s);
+const $$=s=>Array.from(document.querySelectorAll(s));
+const app=$("#app");
+const SITE={about:"https://nextit-bd.web.app/",clients:"https://nextit-bd.web.app/",admin:"https://nextit-bd.web.app/"}; /* ← replace with your real About Me / Clients / Admin Login URLs */
+const CONTACT_EMAIL=""; /* ← optional: add an email address to enable the contact form on the About page */
+const HERO_IMAGES=[
+  "https://images.unsplash.com/photo-1791545717905-d0cfdd1cc845?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+  "https://images.unsplash.com/photo-1738858504017-d98c8cf46955?q=80&w=2471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+  "https://images.unsplash.com/photo-1601121470606-bf5af91fd471?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+  "https://images.unsplash.com/photo-1730877870263-9df7b1c6c239?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+  "https://images.unsplash.com/photo-1585123388867-3bfe6dd4bdbf",
+  "https://images.unsplash.com/photo-1601745812374-ae00e8d0444f?q=80&w=2411&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+  "https://images.unsplash.com/photo-1693585172757-b9e057feb878",
+  "https://images.unsplash.com/photo-1586718372151-bd61d3f2ae88?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+  "https://images.unsplash.com/photo-1670006589700-0b557c00e609",
+  "https://images.unsplash.com/photo-1674280325498-accd8919133b?q=80&w=2641&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+];
+let _hs=0,_ty=0,tyI=0,heroCur=0;
+const visited={};
+/* Full Details pages: put one .html file per destination next to this file (rename as you like) */
+const FULL_DETAILS={
+  "sundarbans": "https://whc.unesco.org/en/list/798/",
+  "coxs-bazar": "full-details-coxs-bazar.html",
+  "saint-martin": "full-details-saint-martin.html",
+  "sylhet-srimangal":"fufull-details-sylhet-srimangaltml","hill-tracts":"full-details-hill-tracts.html","kuakata":"full-details-kuakata.html",
+  "dhaka-old":"full-details-old-dhaka.html","sonargaon":"full-details-sonargaon.html","paharpur":"https://whc.unesco.org/en/list/322/",
+  "bagerhat":"https://whc.unesco.org/en/list/321/","mahasthangarh":"fufull-details-mahasthangarhtml","puthia":"full-details-puthia.html",
+  "kantajew":"full-details-kantajew.html","lawachara":"full-details-lawachara.html","madhupur":"full-details-madhupur.html",
+  "chattogram":"full-details-chattogram.html","liberation":"full-details-liberation.html","nijhum":"full-details-nijhum.html",
+  "barishal":"full-details-barishal.html"
+};
+const NAV=[["#/","Home"],["#/destinations","Destinations"],["#/history","History"],["#/culture","Culture & food"],["#/planner","Planner"],["#/essentials","Essentials"],["#/stories","Stories"],["#/about","About"],["photo-studio.html","Photo Studio"],["bangladesh-map.html","Bangladesh Map"]];
+const esc=t=>String(t==null?"":t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const mapQ=n=>"https://www.openstreetmap.org/search?query="+encodeURIComponent(n+" Bangladesh");
+const RM=()=>matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* =========================================================
+   SVG ART (fallback when no image is provided)
+   ========================================================= */
+function art(d,v=0){
+  const S={
+    nature:'<path d="M0 150Q80 120 160 150T320 140V200H0Z" fill="#0d241c"/><path d="M40 150l12-60 12 60zM120 150l10-50 10 50zM230 150l12-56 12 56z" fill="#2e6b45"/>',
+    beach:'<circle cx="240" cy="70" r="26" fill="#e9c46a"/><path d="M0 130Q80 112 160 130T320 125V200H0Z" fill="#1f6f78"/><path d="M0 165Q100 150 200 165T320 160V200H0Z" fill="#e8d9a8"/>',
+    history:'<path d="M70 160V100h180v60zM100 100a60 60 0 0 1 120 0z" fill="#8a3f22"/><path d="M150 160v-34a10 10 0 0 1 20 0v34z" fill="#14352a"/>',
+    culture:'<path d="M90 150Q160 175 230 150L215 138H105z" fill="#b5532f"/><path d="M160 138V90l40 48z" fill="#f7f2e6"/>',
+    food:'<path d="M100 120h120a60 50 0 0 1-120 0z" fill="#b5532f"/><path d="M130 110q5-20 0-30M160 110q5-20 0-30M190 110q5-20 0-30" stroke="#e8d9a8" fill="none" stroke-width="4"/>'
+  };
+  S.wildlife=S.nature;S.architecture=S.history;S.photography=S.culture;
+  return `<svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration for ${esc(d.n)}" style="filter:hue-rotate(${v*14}deg) brightness(${1-v*.04})"><rect width="320" height="200" fill="${d.cl}"/>${S[d.c[0]]||S.nature}</svg>`;
+}
+
+/* =========================================================
+   IMAGE LOAD HANDLERS (inline)
+   ========================================================= */
+window.imgOK=function(el){el.classList.add("ld");var p=el.closest(".ph,.sl");if(p)p.classList.add("hasimg");};
+/* ছবি লোড না হলে: ১) প্রক্সি দিয়ে আবার চেষ্টা  ২) তারপরও না হলে SVG ইলাস্ট্রেশনই থাকবে */
+window.imgNO=function(el){
+  var st=+(el.dataset.t||0),o=el.dataset.o||el.getAttribute("src")||"";
+  if(st===0&&o){
+    el.dataset.t="1";
+    el.removeAttribute("crossorigin");
+    el.src="https://images.weserv.nl/?url="+encodeURIComponent(o.replace(/^https?:\/\//,""))+"&w=1600&q=80&output=jpg";
+    return;
+  }
+  if(st===1&&o){
+    el.dataset.t="2";
+    el.src=o; /* শেষ চেষ্টা: মূল URL আবার */
+    return;
+  }
+  el.remove();
+};
+/* যেকোনো ধরনের লিংক দিলেও যেন কাজ করে: Unsplash পেজ, Imgur পেজ, Drive, Dropbox, Wikimedia */
+function fixUrl(u){
+  u=String(u||"").trim();
+  if(!u) return "";
+  if(u.indexOf("//")===0) u="https:"+u;
+  if(/^http:\/\//i.test(u)) u=u.replace(/^http:/i,"https:");
+  var m;
+  if((m=u.match(/^https:\/\/(?:www\.)?unsplash\.com\/photos\/([^?#\/]+)/i))){
+    var id=m[1]; if(id.length>11) id=id.slice(-11);
+    return "https://unsplash.com/photos/"+id+"/download?force=true&w=1600";
+  }
+  if((m=u.match(/^https:\/\/(?:www\.)?imgur\.com\/(?!a\/|gallery\/)([A-Za-z0-9]+)\/?$/i))) return "https://i.imgur.com/"+m[1]+".jpg";
+  if((m=u.match(/drive\.google\.com\/file\/d\/([^\/?#]+)/i))||(m=u.match(/drive\.google\.com\/(?:open|uc)\?(?:[^#]*&)?id=([^&#]+)/i))) return "https://drive.google.com/thumbnail?id="+m[1]+"&sz=w1600";
+  if(/^https:\/\/(?:www\.)?dropbox\.com\//i.test(u)) return u.replace(/^https:\/\/(?:www\.)?dropbox\.com/i,"https://dl.dropboxusercontent.com").replace(/[?&]dl=\d/,"");
+  if((m=u.match(/^https:\/\/commons\.wikimedia\.org\/wiki\/(File:[^?#]+)/i))) return "https://commons.wikimedia.org/wiki/Special:FilePath/"+m[1].replace(/^File:/i,"")+"?width=1600";
+  if(/^https:\/\/(?:plus\.|images\.)unsplash\.com\//i.test(u)) u=u.replace(/([?&])w=\d+/,"$1w=1600");
+  return u;
+}
+/* সব <img> এর জন্য একই অ্যাট্রিবিউট */
+function imgTag(src,alt,eager){
+  var f=fixUrl(src);
+  return `<img src="${esc(f)}" data-o="${esc(f)}" alt="${esc(alt)}" ${eager?'loading="eager"':'loading="lazy"'} decoding="async" referrerpolicy="no-referrer" onload="window.imgOK(this)" onerror="window.imgNO(this)">`;
+}
+
+/* =========================================================
+   RENDER PIECES
+   ========================================================= */
+function imgs(d){return Array.isArray(IMAGES[d.id])?IMAGES[d.id].filter(Boolean):[];}
+
+function pic(d){
+  const list=imgs(d);
+  if(list.length){
+    return art(d)+imgTag(list[0],d.n+" — Bangladesh",false);
+  }
+  return art(d);
+}
+
+function card(d){
+  return `<a class="card" href="#/d/${d.id}" data-rv>
+    <div class="ph">${pic(d)}</div>
+    <div class="b">
+      <span class="tag">${esc(d.r)}</span> ${d.u?'<span class="unesco">UNESCO</span>':''}
+      <h3>${esc(d.n)}</h3>
+      <p>${esc(d.s)}</p>
+    </div>
+  </a>`;
+}
+
+function slider(d){
+  const list=imgs(d);
+  const count=list.length?Math.min(list.length,6):5;
+  const slides=Array.from({length:count},(_,i)=>{
+    const hasImg=i<list.length;
+    return `<figure class="sl${i===0?" on":""}" aria-hidden="${i?"true":"false"}">
+      ${art(d,i)}
+      ${hasImg?imgTag(list[i],d.n+" — photo "+(i+1),true):""}
+    </figure>`;
+  }).join("");
+  return `<div class="slider" role="group" aria-roledescription="carousel" aria-label="${esc(d.n)} pictures" tabindex="0">${slides}<button class="sb" data-s="-1" aria-label="Previous picture">‹</button><button class="sb n" data-s="1" aria-label="Next picture">›</button><div class="dots">${Array.from({length:count},(_,i)=>`<button data-i="${i}" aria-label="Picture ${i+1}"></button>`).join("")}</div></div>`;
+}
+
+/* =========================================================
+   SLIDER LOGIC
+   ========================================================= */
+let _tm=null;
+function initSlider(){
+  const s=document.querySelector(".slider");
+  if(!s) return;
+  clearInterval(_tm);clearInterval(_hs);
+  const f=Array.from(s.querySelectorAll(".sl"));
+  const dt=Array.from(s.querySelectorAll(".dots button"));
+  if(!f.length) return;
+  let i=0,hold=false,x0=0;
+  const go=n=>{
+    i=((n%f.length)+f.length)%f.length;
+    f.forEach((e,k)=>{
+      const on=k===i;
+      e.classList.toggle("on",on);
+      e.setAttribute("aria-hidden",on?"false":"true");
+    });
+    dt.forEach((b,k)=>{
+      if(k===i) b.setAttribute("aria-current","true");
+      else b.removeAttribute("aria-current");
+    });
+  };
+  go(0);
+  s.onclick=e=>{
+    const b=e.target.closest("button");
+    if(!b) return;
+    if(b.dataset.s) go(i+Number(b.dataset.s));
+    else if(b.dataset.i!=null) go(Number(b.dataset.i));
+  };
+  s.onkeydown=e=>{
+    if(e.key==="ArrowRight"){e.preventDefault();go(i+1);}
+    if(e.key==="ArrowLeft"){e.preventDefault();go(i-1);}
+  };
+  s.addEventListener("touchstart",e=>{x0=e.touches[0].clientX;},{passive:true});
+  s.addEventListener("touchend",e=>{
+    const dx=e.changedTouches[0].clientX-x0;
+    if(Math.abs(dx)>40) go(i+(dx<0?1:-1));
+  },{passive:true});
+  s.addEventListener("mouseenter",()=>{hold=true;});
+  s.addEventListener("mouseleave",()=>{hold=false;});
+  s.addEventListener("focusin",()=>{hold=true;});
+  s.addEventListener("focusout",()=>{hold=false;});
+  if(!RM()){
+    _tm=setInterval(()=>{if(!hold) go(i+1);},5200);
+  }
+}
+
+/* =========================================================
+   REVEAL OBSERVER
+   ========================================================= */
+let revObs=null;
+function initReveal(){
+  if(RM()){$$("[data-rv]").forEach(el=>el.classList.add("in"));return;}
+  if(revObs) revObs.disconnect();
+  revObs=new IntersectionObserver(es=>{
+    es.forEach(e=>{
+      if(e.isIntersecting){e.target.classList.add("in");revObs.unobserve(e.target);}
+    });
+  },{rootMargin:"0px 0px -6% 0px",threshold:.05});
+  $$("[data-rv]").forEach(el=>{if(!el.classList.contains("in")) revObs.observe(el);});
+}
+function stagger(){
+  $$(".grid").forEach(g=>{
+    Array.from(g.children).forEach((c,i)=>{
+      if(c.hasAttribute("data-rv")) c.style.setProperty("--d",Math.min(i,10)*70+"ms");
+    });
+  });
+  $$(".facts").forEach(g=>{
+    Array.from(g.children).forEach((c,i)=>{
+      if(c.hasAttribute("data-rv")) c.style.setProperty("--d",i*90+"ms");
+    });
+  });
+  $$(".tl").forEach(tl=>{
+    Array.from(tl.querySelectorAll(".tl-i")).forEach((c,i)=>{
+      c.style.setProperty("--d",Math.min(i,12)*90+"ms");
+    });
+  });
+}
+function afterRender(){initReveal();stagger();}
+
+/* =========================================================
+   SCROLL EFFECTS
+   ========================================================= */
+if("scrollRestoration" in history) history.scrollRestoration="manual";
+const sp=document.createElement("div");sp.id="sp";document.body.appendChild(sp);
+const hdr=$("#hdr"),tt=$("#tt");
+let ticking=false;
+function onScroll(){
+  if(ticking) return;
+  ticking=true;
+  requestAnimationFrame(()=>{
+    const doc=document.documentElement;
+    const max=doc.scrollHeight-doc.clientHeight;
+    const y=doc.scrollTop||window.pageYOffset||0;
+    sp.style.transform="scaleX("+(max>0?Math.min(1,y/max):0)+")";
+    hdr.classList.toggle("sc",y>18);
+    tt.classList.toggle("on",y>640);
+    ticking=false;
+  });
+}
+addEventListener("scroll",onScroll,{passive:true});
+hdr.classList.toggle("sc",(document.documentElement.scrollTop||0)>18);
+tt.addEventListener("click",()=>window.scrollTo({top:0,behavior:RM()?"auto":"smooth"}));
+
+/* =========================================================
+   TITLE / NAV
+   ========================================================= */
+function setT(t,d,o){
+  o=o||{};
+  const full=t+" — Discover Bangladesh";
+  document.title=full;
+  const base=location.href.split("#")[0],url=base+(location.hash&&location.hash!=="#/"?location.hash:"");
+  const set=(sel,attr,v)=>{const e=document.querySelector(sel);if(e&&v)e.setAttribute(attr,v);};
+  if(o.kw) set("meta[name=keywords]","content",o.kw);
+  if(d){set("meta[name=description]","content",d);set('meta[property="og:description"]',"content",d);set('meta[name="twitter:description"]',"content",d);}
+  set('meta[property="og:title"]',"content",full);set('meta[name="twitter:title"]',"content",full);
+  set("#canon","href",url);set("#ogurl","content",url);
+  if(o.img){set('meta[property="og:image"]',"content",o.img);set('meta[name="twitter:image"]',"content",o.img);}
+  let ld=document.getElementById("ld-page");
+  if(o.ld){
+    if(!ld){ld=document.createElement("script");ld.type="application/ld+json";ld.id="ld-page";document.head.appendChild(ld);}
+    ld.textContent=JSON.stringify(Object.assign({"@context":"https://schema.org"},o.ld));
+  }else if(ld) ld.remove();
+}
+function nav(p){
+  const links=NAV.map(([h,t],i)=>{
+    const cur=(p==="/"?"#/":"#"+p).startsWith(h)&&(h!=="#/"||p==="/");
+    return '<a href="'+h+'" style="--i:'+i+'" '+(cur?'aria-current="page"':'')+'><small>0'+(i+1)+'</small>'+t+'</a>';
+  }).join("");
+  const ic=d=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+d+'</svg>';
+  const n=NAV.length;
+  $("#nav").innerHTML='<div class="nv-top"><b>MENU</b><button type="button" class="nv-x" id="nx" aria-label="Close menu">✕</button></div>'
+   +'<div class="nv-links">'+links+'</div>'
+   +'<div class="nv-foot">'
+   +'<a class="b1" style="--i:'+n+'" href="'+SITE.about+'" target="_blank" rel="noopener">'+ic('<circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/>')+'About Me</a>'
+   +'<a class="b2" style="--i:'+(n+1)+'" href="'+SITE.clients+'" target="_blank" rel="noopener">'+ic('<circle cx="9" cy="8" r="3.5"/><path d="M2 20c.8-3.6 3.4-5.5 7-5.5s6.2 1.9 7 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 15c2.2.6 3.6 2.3 4 5"/>')+'Clients</a>'
+   +'<a class="b3" style="--i:'+(n+2)+'" href="'+SITE.admin+'" target="_blank" rel="noopener">'+ic('<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>')+'Admin Login</a>'
+   +'</div>';
+  $("#nx").onclick=()=>setMenu(false);
+}
+function setMenu(o){
+  $("#nav").classList.toggle("open",o);
+  $("#scrim").classList.toggle("on",o);
+  document.body.classList.toggle("nolock",o);
+  const m=$("#mb");m.setAttribute("aria-expanded",o);m.setAttribute("aria-label",o?"Close menu":"Open menu");
+  if(o) requestAnimationFrame(()=>{const x=$("#nx");if(x)x.focus({preventScroll:true});});
+}
+
+/* Hero background slideshow: first slide loads after text paints, others load when idle */
+const TYPED=["the Sundarbans mangrove forest","Cox's Bazar, the longest sea beach","Sylhet's endless tea gardens","UNESCO heritage sites","Old Dhaka and its street food","hills, rivers and living culture"];
+function initTyping(){
+  const el=document.querySelector(".ty-t"); if(!el) return;
+  if(RM()){el.textContent=TYPED[0];return;}
+  let i=tyI,j=document.getElementById("app").classList.contains("norv")?TYPED[tyI].length:0,del=false;
+  const go=()=>(function tick(){
+    if(!document.body.contains(el)) return;
+    const t=TYPED[i];
+    el.textContent=t.slice(0,j);
+    let d=del?32:72;
+    if(!del&&j===t.length){del=true;d=3000;}
+    else if(del&&j===0){del=false;i=(i+1)%TYPED.length;tyI=i;d=700;}
+    else j+=del?-1:1;
+    _ty=setTimeout(tick,d);
+  })();
+  if(document.body.classList.contains("pre")) addEventListener("pre-done",go,{once:true}); else go();
+}
+function marquee(){
+  const W=["Traveling","Explore","Bangladesh","View"];
+  const names=D.map(x=>[x.n,x.id]);
+  const out=[];let k=0;
+  names.forEach((n,i)=>{out.push(["#/d/"+n[1],n[0],1]);if(i%4===3)out.push(["#/destinations",W[k++%W.length],0]);});
+  W.forEach(w=>out.push(["#/destinations",w,0]));
+  const chips=(dup)=>out.map(o=>'<a class="mq-c'+(o[2]?'':' mq-w')+'" href="'+o[0]+'"'+(dup?' tabindex="-1"':'')+'>'+esc(o[1])+'</a>').join("");
+  return '<div class="mq" role="region" aria-label="Explore Bangladesh keywords"><div class="mq-t"><div class="mq-s">'+chips(0)+'</div><div class="mq-s" aria-hidden="true">'+chips(1)+'</div></div></div>';
+}
+function initHero(){
+  const box=document.querySelector(".hero-slides"); if(!box) return;
+  const n=HERO_IMAGES.length,ld=[];
+  box.innerHTML="<i></i>".repeat(n);
+  const s=[...box.children];
+  const load=i=>ld[i]||(ld[i]=new Promise(res=>{
+    const im=new Image();im.decoding="async";
+    im.onload=()=>{s[i].style.backgroundImage='url("'+im.src+'")';res(true);};
+    im.onerror=()=>res(false);
+    im.src=HERO_IMAGES[i].split("?")[0]+"?q=78&w=1920&auto=format&fit=crop";
+  }));
+  const seen=document.getElementById("app").classList.contains("norv");
+  let cur=seen?heroCur:0;
+  if(seen) box.classList.add("instant");
+  const start=()=>load(cur).then(ok=>{
+    if(ok){s[cur].classList.add("on");box.classList.add("ready");}
+    if(seen) setTimeout(()=>box.classList.remove("instant"),400);
+    if(RM()) return;
+    load((cur+1)%n);
+    _hs=setInterval(async()=>{
+      if(document.hidden) return;
+      let nx=(cur+1)%n,tries=0;
+      while(!(await load(nx)) && tries++<n) nx=(nx+1)%n;
+      if(nx===cur) return;
+      const old=s[cur];old.classList.remove("on");old.classList.add("prev");s[nx].classList.add("on");cur=nx;heroCur=nx;
+      setTimeout(()=>old.classList.remove("prev"),2000);
+      load((nx+1)%n);   /* prefetch only the next one */
+    },6000);
+  });
+  if(document.body.classList.contains("pre")) addEventListener("pre-done",start,{once:true}); else start();
+}
+/* =========================================================
+   FILTERS + LIST
+   ========================================================= */
+let q="",cat="all";
+function list(){
+  const r=D.filter(d=>
+    (cat==="all"||d.c.includes(cat)) &&
+    (d.n+d.r+d.s+d.c.join(" ")).toLowerCase().includes(q.toLowerCase())
+  );
+  const res=$("#res");
+  if(!res) return;
+  res.innerHTML=r.length?r.map(card).join(""):'<p>No destinations match. Clear the search or choose "all".</p>';
+  $$(".chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.c===cat));
+  afterRender();
+}
+function filters(){
+  return '<div class="search"><label class="sk" for="q">Search destinations</label><input id="q" type="search" placeholder="Search by name, region or category" value="'+esc(q)+'"></div>'+
+    '<div class="chips" role="group" aria-label="Categories">'+CATS.map(c=>'<button class="chip" data-c="'+c+'" aria-pressed="false">'+c+'</button>').join("")+'</div>'+
+    '<div class="grid" id="res" aria-live="polite"></div>';
+}
+function bind(){
+  const qi=$("#q");
+  if(qi) qi.oninput=e=>{q=e.target.value;list();};
+  $$(".chip").forEach(b=>b.onclick=()=>{cat=b.dataset.c;list();});
+  list();
+}
+
+/* =========================================================
+   NEXTIT-BD BLOCK (reusable)
+   ========================================================= */
+function nextitBlock(){
+  return `<section class="nextit-sec">
+    <div class="nextit-card" data-rv="zoom">
+      <span class="nx-badge">Crafted by</span>
+      <h2 class="nx-title">NEXTIT-BD</h2>
+      <p class="nx-desc">We drive business growth and digital transformation through modern technology and innovative software solutions. At NEXTIT-BD, our team specializes in engineering high-performance web applications, custom software, and scalable digital platforms built for reliability. We combine speed, precision, and top-tier quality to craft world-class digital experiences.</p>
+      <a class="nx-btn" href="https://nextit-bd.web.app/" target="_blank" rel="noopener">
+        <span>Visit NEXTIT-BD</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+      </a>
+    </div>
+  </section>`;
+}
+
+/* =========================================================
+   ROUTES
+   ========================================================= */
+function heroWords(txt){
+  return txt.split(" ").map((w,i)=>'<span class="wd" style="--i:'+i+'">'+esc(w)+'</span>').join(" ");
+}
+
+const R={
+"/"(){
+  setT("Discover the Soul of Bengal","Plan a trip to Bangladesh: Sundarbans, Cox's Bazar, Sylhet tea gardens, UNESCO heritage, food, culture and practical travel essentials.",{ld:{"@type":"ItemList","name":"Top destinations in Bangladesh","itemListElement":D.slice(0,12).map((x,i)=>({"@type":"ListItem","position":i+1,"name":x.n,"url":location.href.split("#")[0]+"#/d/"+x.id}))}});
+  return `<section class="hero">
+  <div class="hero-slides" aria-hidden="true"></div>
+  <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="w">
+    <p class="eyebrow">Bangladesh · South Asia</p>
+    <h1>${heroWords("Discover Bangladesh — A Land of Stories, Rivers & Wonders")}</h1>
+    <p class="lead">Mangrove forests, ancient monasteries, tea hills and the world's longest river-fed delta. A first guide for international visitors.</p>
+    <p class="typed" aria-hidden="true"><span class="ty-p">Explore </span><span class="ty-t"></span><i class="ty-c"></i></p>
+    <p class="cta"><a class="btn" href="#/planner">Plan your journey</a> <a class="btn alt" href="#/destinations">Browse destinations</a></p>
+  </div>
+</section>
+${marquee()}
+<div class="w"><h2 data-rv>Find your place</h2>${filters()}</div>
+<div class="w"><div class="two">
+  <div data-rv="left"><h2>When to go</h2><p>Many visitors prefer the cooler, drier months from roughly November to February. The monsoon (about June to September) brings lush landscapes but flooding and slower travel. Conditions vary by region.</p></div>
+  <div data-rv="right"><h2>Travel responsibly</h2><p>Keep to marked paths, never feed wildlife, avoid single-use plastic, ask permission before photographing people, and hire local guides and homestays where you can.</p></div>
+</div></div>
+${nextitBlock()}`;
+},
+
+"/destinations"(){setT("Destinations");return `<div class="w"><h1 data-rv>Destinations</h1>${filters()}</div>`;},
+
+"/history"(){
+  setT("History and heritage");
+  return `<div class="w"><h1 data-rv>History &amp; heritage</h1>
+  <p data-rv>A short chronological overview. Dates and interpretations vary between historians; follow the source links for detail.</p>
+  <div class="tl" data-rv>${H.map(h=>`<div class="tl-i" data-rv="left"><h3>${esc(h[0])}</h3><p>${esc(h[1])} ${h[2]?`<a href="${h[2]}" rel="noopener" target="_blank">Source</a>`:""}</p></div>`).join("")}</div></div>`;
+},
+
+"/culture"(){
+  setT("Culture and food");
+  const l=a=>a.map(x=>`<div class="tl-i" data-rv="left"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></div>`).join("");
+  return `<div class="w"><div class="two">
+    <div><h1 data-rv>Culture</h1><div class="tl" data-rv>${l(CU)}</div></div>
+    <div><h1 data-rv>Food</h1><div class="tl" data-rv>${l(FO)}</div>
+    <p class="note" data-rv>Check ingredients if you have dietary needs; fish and meat are common, but vegetable dishes are widely available.</p></div>
+  </div></div>`;
+},
+
+"/stories"(){
+  setT("Stories");
+  return `<div class="w"><h1 data-rv>Stories</h1>
+  <p class="note" data-rv>Short editorial notes. Longer articles with sources are planned.</p>
+  <div class="tl" data-rv>${ST.map(s=>`<div class="tl-i" data-rv="left"><h3>${esc(s[0])}</h3><p>${esc(s[1])}</p></div>`).join("")}</div></div>`;
+},
+
+"/essentials"(){
+  setT("Travel essentials");
+  return `<div class="w"><h1 data-rv>Travel essentials</h1>
+  <p class="note" data-rv><b>Last reviewed: not live-checked.</b> Visa, safety and transport rules change. Always confirm on the official sites below before booking.</p>
+  <table><tbody>${L.map((l,i)=>`<tr data-rv="left" style="--d:${i*60}ms"><th><a href="${l[1]}" rel="noopener" target="_blank">${esc(l[0])}</a></th><td>${esc(l[2])}</td></tr>`).join("")}</tbody></table>
+  <h2 data-rv>Basics</h2>
+  <p data-rv>Currency is the taka (BDT). Carry some cash; cards work mainly in larger hotels and shops. Dhaka's main international gateway is Hazrat Shahjalal International Airport. Dress modestly, and expect heat and humidity.</p></div>`;
+},
+
+"/map"(){return R["/destinations"]();},
+
+"/planner"(){
+  setT("Travel planner");
+  return `<div class="w"><h1 data-rv>Trip planner</h1>
+  <p class="note noprint" data-rv>Suggested itineraries only, not tour packages. No live prices, availability or exchange rates.</p>
+  <div class="two noprint">
+    <div data-rv="left">
+      <label for="nd">Trip length</label>
+      <select id="nd"><option>3</option><option>5</option><option>7</option><option>10</option></select>
+      <label for="ni">Interest</label>
+      <select id="ni">${CATS.map(c=>`<option>${c}</option>`).join("")}</select>
+    </div>
+    <div data-rv="right">
+      <label for="bd">Daily budget (BDT)</label>
+      <input id="bd" type="number" min="0" value="5000">
+      <label for="rt">BDT per 1 USD (enter your own rate, optional)</label>
+      <input id="rt" type="number" min="0" placeholder="e.g. your bank's rate">
+    </div>
+  </div>
+  <div id="pl"></div>
+  <p class="noprint" data-rv><button class="btn" onclick="window.print()">Print or save as PDF</button></p>
+  <h2 data-rv>Checklist</h2>
+  <ul data-rv>
+    <li>Passport valid for the period your visa requires</li>
+    <li>Visa or e-visa as per official rules</li>
+    <li>Light long sleeves, rain jacket, sun protection</li>
+    <li>Reusable bottle, insect repellent, power adapter</li>
+    <li>Travel insurance and health advice from a clinician</li>
+  </ul></div>`;
+},
+
+"/about"(){
+  setT("About and contact","About the BANGLADESH travel guide, how information is sourced, and how to get in touch.");
+  return `<div class="w"><h1 data-rv>About BANGLADESH</h1>
+  <p class="lede" data-rv>An independent editorial guide that helps international visitors plan well and travel respectfully across Bangladesh.</p>
+  <div class="facts">
+    <div data-rv><b>Our mission</b><br>Clear, practical and respectful travel guidance for first-time visitors.</div>
+    <div data-rv><b>How we source</b><br>Time-sensitive facts point to official sources, and errors are corrected when reported.</div>
+    <div data-rv><b>Independence</b><br>Not an official tourism body or tour operator. Always confirm details before you travel.</div>
+  </div>
+  <h2 data-rv style="margin-top:34px">Get in touch</h2>
+  <p data-rv>Questions, corrections or partnership enquiries are welcome.</p>
+  <div class="ct" data-rv><a class="btn" href="${SITE.about}" rel="noopener" target="_blank">Contact via NEXTIT-BD</a></div>
+  ${CONTACT_EMAIL?`<form id="cf" novalidate class="noprint" data-rv>
+    <label for="cn">Name</label><input id="cn" autocomplete="name">
+    <label for="ce">Email</label><input id="ce" type="email" autocomplete="email">
+    <label for="cm">Message</label><textarea id="cm" rows="4"></textarea>
+    <p class="err" id="ce2" role="alert"></p>
+    <button class="btn">Send message</button>
+  </form>`:""}
+  ${nextitBlock()}</div>`;
+}
+};
+
+/* =========================================================
+   PLANNER
+   ========================================================= */
+let ov={};
+function plan(){
+  const nd=$("#nd"),ni=$("#ni"),bd=$("#bd"),rt=$("#rt");
+  if(!nd) return;
+  const n=+nd.value,i=ni.value;
+  const r=D.filter(d=>i==="all"||d.c.includes(i));
+  const out=[];
+  for(let k=0;k<n;k++) out.push(r[Math.floor(k*r.length/n)%r.length]||D[0]);
+  out.forEach((o,k)=>{if(ov[k]) out[k]=D.find(z=>z.id===ov[k])||o;});
+  const b=+bd.value||0,x=+rt.value;
+  const tot=b*n;
+  $("#pl").innerHTML='<ol class="plan">'+out.map((d,k)=>
+    `<li><span class="pn">${k+1}</span><div class="pb"><small>Day ${k+1}</small><select aria-label="Day ${k+1} destination" data-k="${k}">${D.map(o=>`<option value="${o.id}" ${o.id===d.id?"selected":""}>${esc(o.n)}</option>`).join("")}</select><a class="pl-g" href="#/d/${d.id}">View guide &rarr;</a></div></li>`
+  ).join("")+'</ol><div class="pbud"><span>Estimated budget</span><b>'+tot.toLocaleString()+' BDT</b>'+(x?`<em>≈ ${Math.round(tot/x).toLocaleString()} USD at your rate</em>`:"")+'</div>';
+}
+
+/* =========================================================
+   DETAIL PAGE
+   ========================================================= */
+function detail(id){
+  const d=D.find(x=>x.id===id);
+  if(!d) return nf();
+  const _im=(IMAGES[d.id]||[]).find(u=>/^https:\/\/images\.unsplash\.com\/photo-/.test(u));
+  setT(d.n,d.s,{img:_im&&_im.split("?")[0]+"?q=75&w=1200&h=630&auto=format&fit=crop",ld:{"@type":"TouristDestination","name":d.n,"description":d.o||d.s,"url":location.href.split("#")[0]+"#/d/"+d.id,"containedInPlace":{"@type":"Country","name":"Bangladesh"},"touristType":(d.c||[]).join(", ")},kw:d.n+", "+d.n+" Bangladesh, "+d.n+" travel guide, how to visit "+d.n+", best time to visit "+d.n+", "+d.r+", "+(d.c||[]).join(" Bangladesh, ")+" Bangladesh, Bangladesh tourism"});
+  return `<div class="w">
+  <p class="crumb"><a href="#/">Home</a> / <a href="#/destinations">Destinations</a> / ${esc(d.n)}</p>
+  ${slider(d)}
+  <h1 style="margin-top:22px">${esc(d.n)}</h1>
+  <p>${esc(d.o)}</p>
+  ${d.adv?`<p class="note"><b>Advisory:</b> ${esc(d.adv)}</p>`:""}
+  <div class="facts">
+    <div data-rv><b>Region</b><br>${esc(d.r)}</div>
+    <div data-rv><b>Best time</b><br>${esc(d.t)}</div>
+    <div data-rv><b>Suggested stay</b><br>${esc(d.d)}</div>
+    <div data-rv><b>Getting there</b><br>${esc(d.x)}</div>
+  </div>
+  <p><a class="btn" href="${mapQ(d.n)}" rel="noopener" target="_blank">Open in OpenStreetMap</a> <button class="btn alt" type="button" id="dtl">Details</button> ${d.u?`<a class="btn alt" href="${d.u}" rel="noopener" target="_blank">UNESCO page</a>`:""}</p>
+  <p class="note">Crafted with care by <a href="https://nextit-bd.web.app/" target="_blank" rel="noopener"><strong>NEXTIT-BD</strong></a>, building fast, modern digital experiences. Transport details are general, so please verify before you travel.</p>
+  <dialog class="dlg" id="dlg" aria-labelledby="dlgt"><div class="dlg-b"><h2 id="dlgt">${esc(d.n)}</h2><p>${esc(d.o)}</p>
+    ${d.adv?`<p class="note"><b>Advisory:</b> ${esc(d.adv)}</p>`:""}
+    <dl><div><dt>Region</dt><dd>${esc(d.r)}</dd></div><div><dt>Best time</dt><dd>${esc(d.t)}</dd></div><div><dt>Suggested stay</dt><dd>${esc(d.d)}</dd></div><div><dt>Getting there</dt><dd>${esc(d.x)}</dd></div></dl></div>
+    <div class="dlg-f"><button class="btn alt" type="button" id="dx">Close</button> <a class="btn" href="${esc(FULL_DETAILS[d.id]||("full-details-"+d.id+".html"))}">Full Details</a></div></dialog>
+  </div>`;
+}
+
+function nf(){
+  setT("Page not found");
+  return '<div class="w"><h1>Page not found</h1><p><a href="#/">Return home</a> or <a href="#/destinations">browse destinations</a>.</p></div>';
+}
+
+/* =========================================================
+   ROUTER
+   ========================================================= */
+const scrollMem={};let curKey=location.hash||"#/",lastY=0,fwd=false;
+addEventListener("scroll",()=>{lastY=window.pageYOffset||0;},{passive:true});
+document.addEventListener("click",e=>{if(e.target.closest&&e.target.closest('a[href^="#"]')) fwd=true;},true);
+function route(){
+  scrollMem[curKey]=lastY;
+  clearTimeout(_ty);clearInterval(_tm);
+  if(revObs) revObs.disconnect();
+  const p=location.hash.slice(1)||"/";
+  nav(p);
+  setMenu(false);
+
+  const seen=p==="/"&&!!visited[p];visited[p]=true;
+  let h;
+  if(p.indexOf("/d/")===0) h=detail(p.slice(3));
+  else h=(R[p]||nf)();
+  app.innerHTML=h;
+
+  app.classList.remove("pg");
+  app.classList.toggle("norv",seen);
+  void app.offsetWidth;
+  if(!RM()&&!seen) app.classList.add("pg");
+
+  if(p.indexOf("/d/")===0){
+    initSlider();
+    const dl=$("#dtl"),dg=$("#dlg");
+    if(dl&&dg){dl.onclick=()=>dg.showModal();dg.onclick=e=>{if(e.target===dg)dg.close();};$("#dx").onclick=()=>dg.close();}
+  }
+  document.body.classList.toggle("home",p==="/");
+  if(p==="/") initHero();
+
+  if(p==="/"||p==="/destinations"||p==="/map") bind();
+  else afterRender();
+
+  if(p==="/planner"){
+    ov={};
+    ["nd","ni"].forEach(i=>{const el=$("#"+i);if(el) el.oninput=()=>{ov={};plan();};});
+    ["bd","rt"].forEach(i=>{const el=$("#"+i);if(el) el.oninput=plan;});
+    plan();
+    const pl=$("#pl");
+    if(pl) pl.onchange=e=>{if(e.target.dataset.k!=null){ov[e.target.dataset.k]=e.target.value;plan();}};
+    afterRender();
+  }
+
+  if(p==="/about"){
+    const cf=$("#cf");
+    if(cf) cf.onsubmit=e=>{
+      e.preventDefault();
+      const m=[];
+      if(!$("#cn").value.trim()) m.push("Enter your name.");
+      if(!/^\S+@\S+\.\S+$/.test($("#ce").value)) m.push("Enter a valid email.");
+      if($("#cm").value.trim().length<10) m.push("Message needs at least 10 characters.");
+      const box=$("#ce2");
+      box.textContent=m.length?m.join(" "):"Opening your email app…";
+      if(!m.length) location.href="mailto:"+CONTACT_EMAIL+"?subject="+encodeURIComponent("Message from "+$("#cn").value.trim())+"&body="+encodeURIComponent($("#cm").value.trim()+"\n\n"+$("#ce").value.trim());
+      box.style.color=m.length?"":"var(--teal)";
+    };
+  }
+
+  if(p==="/") initTyping();
+  const key=location.hash||"#/",back=!fwd&&(key in scrollMem)&&scrollMem[key]>0;
+  const y=back?scrollMem[key]:0;
+  window.scrollTo({top:y,behavior:"instant"});
+  if(back) setTimeout(()=>{if(Math.abs((window.pageYOffset||0)-y)>4) window.scrollTo({top:y,behavior:"instant"});},350);
+  fwd=false;curKey=key;lastY=y;
+  onScroll();
+}
+
+$("#mb").onclick=()=>setMenu(!$("#nav").classList.contains("open"));
+$("#scrim").onclick=()=>setMenu(false);
+$("#nav").addEventListener("click",e=>{if(e.target.closest(".nv-links a"))setMenu(false);});
+addEventListener("keydown",e=>{if(e.key==="Escape")setMenu(false);});
+(function(){
+  const n=$("#nav");let x0=null,dx=0;
+  n.addEventListener("touchstart",e=>{x0=e.touches[0].clientX;dx=0;},{passive:true});
+  n.addEventListener("touchmove",e=>{
+    if(x0==null) return;
+    dx=Math.max(0,e.touches[0].clientX-x0);
+    if(dx>8){n.style.transition="none";n.style.transform="translate3d("+dx+"px,0,0)";}
+  },{passive:true});
+  n.addEventListener("touchend",()=>{
+    if(x0==null) return;
+    n.style.transition="";n.style.transform="";
+    const c=dx>70;x0=null;dx=0;if(c) setMenu(false);
+  });
+})();
+addEventListener("hashchange",route);
+route();
+</script></body></html>
